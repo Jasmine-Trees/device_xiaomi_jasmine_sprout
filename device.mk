@@ -530,6 +530,10 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Retrofit Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
